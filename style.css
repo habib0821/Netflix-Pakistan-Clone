@@ -1,0 +1,400 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    overflow-x: hidden;
+}
+
+/* ******************************** S1 ******************************** */
+.sectionFirst {
+    width: 100%;
+    height: 40rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.50)), url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sectionFirst .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 9rem;
+}
+
+.sectionFirst .navbar img {
+    width: 13rem;
+}
+
+.sectionFirst .navbar button {
+    height: 2rem;
+    width: 5rem;
+    background-color: #e50913;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.sectionFirst .navbar button:hover{
+    cursor: pointer;
+    background-color: #c10e16;
+    transition: 0.5s ease-in-out;
+}
+
+.sectionFirst .homeTitle {
+    display: flex;
+    position: relative;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 1rem;
+}
+
+.sectionFirst .homeTitle h1 {
+    font-size: 2.7rem;
+}
+
+.sectionFirst .homeTitle p {
+    font-size: 1.3rem;
+}
+
+.createMem button {
+    height: 3rem;
+    width: 12rem;
+    background-color: #e50913;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.createMem button:hover{
+    background-color: #c10e16;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.createMem button i {
+    padding-left: 17px;
+}
+
+.createMem input {
+    background-color: #11111150;
+    padding: 0.6rem;
+    width: 17rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+}
+
+/* ******************************** S1 ******************************** */
+
+hr {
+    border: 4px solid rgb(92, 92, 92);
+}
+
+/* ******************************** S2 ******************************** */
+.sectionSecond {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sectionSecond .details {
+    display: flex;
+    align-items: center;
+
+}
+
+.sectionSecond .details .left {
+    width: 37rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.sectionSecond .details .left p {
+    font-size: 1.5rem;
+}
+
+.sectionSecond .details .right img {
+    width: 24rem;
+    border-radius: 8px;
+}
+
+/* ******************************** S2 ******************************** */
+
+/* ******************************** S3 ******************************** */
+.sectionThird {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sectionThird .details {
+    display: flex;
+    align-items: center;
+
+}
+
+.sectionThird .details .left {
+    width: 30rem;
+}
+
+.sectionThird .details .left img {
+    width: 20rem;
+    border-radius: 8px;
+}
+
+.sectionThird .details .right p {
+    font-size: 1.5rem;
+}
+
+.sectionThird .details .right {
+    width: 33rem;
+    font-size: 2rem;
+    color: white;
+}
+
+/* ******************************** S3 ******************************** */
+
+
+/* ******************************** S4 ******************************** */
+.sectionFourth {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.sectionFourth .details {
+    padding-left: 12rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.sectionFourth .details h1 {
+    width: 23rem;
+}
+
+.sectionFourth .details p {
+    font-size: 1.5rem;
+    width: 28rem;
+}
+
+/* ******************************** S4 ******************************** */
+
+
+/* ******************************** S5 ******************************** */
+.sectionFifth {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sectionFifth .details {
+    display: flex;
+    align-items: center;
+
+}
+
+.sectionFifth .details .left {
+    width: 30rem;
+}
+
+.sectionFifth .details .left img {
+    width: 27rem;
+    border-radius: 8px;
+}
+
+.sectionFifth .details .right p {
+    font-size: 1.5rem;
+}
+
+.sectionFifth .details .right {
+    width: 33rem;
+    font-size: 2rem;
+    color: white;
+}
+
+/* ******************************** S5 ******************************** */
+
+
+/* ******************************** S6 ******************************** */
+.sectionSixth {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-bottom: 5rem;
+}
+
+.sectionSixth .details {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.sectionSixth .details .faq {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionSixth .details .faq button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(92, 92, 92, 0.645);
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: white;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 0.5rem;
+    padding: 1rem 2rem;
+    width: 60rem;
+    height: 5rem;
+}
+.sectionSixth .details .faq button:hover{
+    background-color: #7a7777a4;
+    cursor: pointer;
+}
+
+.sectionSixth .details .faq .qs1{
+    background-color: rgba(92, 92, 92, 0.645);
+    padding: 2rem 2rem;
+    width: 56rem;
+    height: 0;
+    font-size: 1.3rem;
+    display: none;
+    z-index: 1;
+}
+.sectionSixth .details .faq .qs2{
+    background-color: rgba(92, 92, 92, 0.645);
+    padding: 2rem 2rem;
+    width: 56rem;
+    height: 0;
+    font-size: 1.3rem;
+    display: none;
+    z-index: 1;
+}
+.sectionSixth .details .faq .qs3{
+    background-color: rgba(92, 92, 92, 0.645);
+    padding: 2rem 2rem;
+    width: 56rem;
+    height: 0;
+    font-size: 1.3rem;
+    display: none;
+    z-index: 1;
+}
+.sectionSixth .details .faq .qs4{
+    background-color: rgba(92, 92, 92, 0.645);
+    padding: 2rem 2rem;
+    width: 56rem;
+    height: 0;
+    font-size: 1.3rem;
+    display: none;
+    z-index: 1;
+}
+.sectionSixth .details .faq .qs5{
+    background-color: rgba(92, 92, 92, 0.645);
+    padding: 2rem 2rem;
+    width: 56rem;
+    height: 0;
+    font-size: 1.3rem;
+    display: none;
+    z-index: 1;
+}
+.sectionSixth .details .faq .qs6{
+    background-color: rgba(92, 92, 92, 0.645);
+    padding: 2rem 2rem;
+    width: 56rem;
+    height: 0;
+    font-size: 1.3rem;
+    display: none;
+    z-index: 1;
+}
+
+.sectionSixth .details .faqLower {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ******************************** S6 ******************************** */
+
+
+/* ******************************** S7 ******************************** */
+
+.sectionFooter {
+    width: 100%;
+    height: 25rem;
+    margin-top: 5rem;
+}
+
+.sectionFooter .details {
+    color: white;
+    margin: 3rem 10rem;
+}
+
+.sectionFooter .details .foot {
+    padding-top: 1rem;
+}
+
+.sectionFooter .details .topCont a {
+    color: white;
+}
+
+.sectionFooter .details .middleCont {
+    display: flex;
+    gap: 8rem;
+}
+
+.sectionFooter .details .middleCont li {
+    padding-top: 1rem;
+    text-decoration: underline;
+    list-style: none;
+}
+.sectionFooter .details .middleCont li:hover{
+    cursor: pointer;
+}
+
+.sectionFooter .details .bottemCont p {
+    padding-top: 10px;
+}
+
+.sectionFooter .details .bottemCont select {
+    width: 8rem;
+    height: 2rem;
+    background-color: #111;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* ******************************** S7 ******************************** */
